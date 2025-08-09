@@ -11,10 +11,10 @@ const HeroSection = () => {
       description: 'Active installations'
     },
     { 
-      label: 'Data Safety', 
-      value: '100%', 
+      label: 'Migration', 
+      value: 'Done', 
       icon: Shield,
-      description: 'Secure migration'
+      description: 'JSON to Cloud'
     },
     { 
       label: 'Production Ready', 
@@ -56,12 +56,12 @@ const HeroSection = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 text-gray-300">
-            Complete Architecture: CLI Tool + Cloud Backend + Data Migration
+            Complete Architecture: CLI Tool + Cloud Backend + Local-to-Cloud Migration
           </h2>
           
           <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
             Full-stack engineering project demonstrating <strong>Node.js</strong> + <strong>Supabase</strong> + <strong>JavaScript</strong> architecture.
-            Features cloud data persistence, user authentication, and seamless database migration system.
+            Features cloud data persistence, user authentication, and seamless migration from local JSON files to cloud database.
           </p>
 
           {/* Call to Action Buttons */}
