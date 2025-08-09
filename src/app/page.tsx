@@ -1,5 +1,11 @@
-import HeroSection from '@/app/components/HeroSection';
+import HeroSection from './components/HeroSection';
+import TechDecisionsSection from './components/TechDecisionsSection';
 
 export default function Home() {
-  return <HeroSection />;
+  return (
+    <>
+      <HeroSection />
+      <TechDecisionsSection />
+    </>
+  );
 }
