@@ -122,7 +122,7 @@ const ArchitectureTeaser = () => {
           </div>
 
           {/* Key Architecture Principles */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-700/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-600 text-center">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-6 h-6 text-white" />
@@ -151,23 +151,6 @@ const ArchitectureTeaser = () => {
               <p className="text-gray-400 text-sm">
                 Migration system with backups and comprehensive error handling
               </p>
-            </div>
-          </div>
-
-          {/* CTA to Full Technical Deep Dive */}
-          <div className="text-center">
-            <div className="bg-gray-700/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-600">
-              <h3 className="text-2xl font-bold text-white mb-4">
-                Want to See the Technical Implementation?
-              </h3>
-              <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-                Explore the detailed code examples, design decisions, and advanced features like 
-                Row Level Security policies and safe migration strategies.
-              </p>
-              <button className="px-8 py-4 border-2 border-gray-500 hover:border-gray-400 rounded-xl font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3 mx-auto hover:bg-gray-700/80 text-white hover:transform hover:-translate-y-1 active:scale-95 cursor-pointer">
-                Deep Dive into Architecture
-                <ArrowRight className="w-5 h-5" />
-              </button>
             </div>
           </div>
 
